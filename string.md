@@ -70,3 +70,10 @@ True
 >>>print("Hola {name}, tu numero es el {number}".format(name, number)
 'Hola Hector, tu numero es el 57'
 ```
+- Formatear con 2 digitos despues del punto decimal
+```
+>>>precio=7.5
+>>>piva=precio*1.09
+>>>print("Precio Base:{:.2f} - Con IVA :{:.2f}".format(precio, piva)
+'Precio Base:7.50 - Con IVA :8.18'
+```
