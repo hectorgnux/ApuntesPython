@@ -5,6 +5,9 @@
 - Eliminar espacios Ej(" yes ")
 
 ```
-" yes ".scrip()
+" yes ".strip()
 'yes'
+
+" yes ".lstrip()
+'yes '
 ```
