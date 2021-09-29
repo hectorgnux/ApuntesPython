@@ -42,3 +42,8 @@ True
 >>>" ".join(["Esto", "esta", "unido", "con", "espacios"])
 'Esto es una cadena con espacios'
 ```
+- Pasar de una cadena a lista
+```
+>>>"Esto esta unido con espacios".split()
+["Esto", "esta", "unido", "con", "espacios"]
+```
