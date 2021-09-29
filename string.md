@@ -70,6 +70,10 @@ True
 >>>print("Hola {name}, tu numero es el {number}".format(name, number)
 'Hola Hector, tu numero es el 57'
 ```
+
+`{: .2f}` significa que lo formatearías como un número flotante, con dos dígitos después del punto decimal.
+`{:> 3.2f}`  alinearía el texto tres espacios a la derecha, además de especificar un número flotante con dos lugares decimales.
+
 - Formatear con 2 digitos despues del punto decimal
 ```
 >>>precio=7.5
