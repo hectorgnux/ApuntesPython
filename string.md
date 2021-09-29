@@ -32,3 +32,8 @@ False
 >>>"1234".isnumeric()
 True
 ```
+- Pasar una cadena numerica a variable numeros
+```
+>>>int("12345")
+12345
+```
