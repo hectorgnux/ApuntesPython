@@ -2,6 +2,16 @@
 
 ## Apuntes String
 
+- Todo en mayusculas
+```
+>>>"hola".upper()
+HOLA
+```
+- Todo en mayusculas
+```
+>>>"HOLA".lower()
+hola
+```
 - Eliminar espacios Ej(" yes ")
 
 ```
