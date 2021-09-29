@@ -25,3 +25,10 @@
 >>>"pineapple".endswitch("apple")
 True
 ```
+- Validar si una cadena es numerica
+```
+>>>"pineapple".isnumeric()
+False
+>>>"1234".isnumeric()
+True
+```
