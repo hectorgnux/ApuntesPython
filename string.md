@@ -10,4 +10,7 @@
 
 " yes ".lstrip()
 'yes '
+
+" yes ".rstrip()
+' yes'
 ```
