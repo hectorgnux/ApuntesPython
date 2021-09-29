@@ -109,5 +109,7 @@ True
 
 `delimiter.join(lista de cadenas)` Devuelve una nueva cadena con todas las cadenas unidas por el delimitador. 
 
+##Operaciones con numeros
 
+`'{: d}'. formato (10.5) → '10'`  Valor entero
 
