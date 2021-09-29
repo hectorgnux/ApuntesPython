@@ -70,7 +70,15 @@ True
 >>>print("Hola {name}, tu numero es el {number}".format(name, number)
 'Hola Hector, tu numero es el 57'
 ```
+- Formatear con 2 digitos despues del punto decimal
+```
+>>>precio=7.5
+>>>piva=precio*1.09
+>>>print("Precio Base:{:.2f} - Con IVA :{:.2f}".format(precio, piva)
+'Precio Base:7.50 - Con IVA :8.18'
+```
 ##Operaciones de cadena
+
 `{: .2f}` significa que lo formatearías como un número flotante, con dos dígitos después del punto decimal.
 
 `{:> 3.2f}`  alinearía el texto tres espacios a la derecha, además de especificar un número flotante con dos lugares decimales.
