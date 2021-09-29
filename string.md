@@ -92,6 +92,7 @@ True
 `cadena[i:j]` Accede a la subcadena comenzando en el índice i, terminando en el índice j-1. Si se omite i, es 0 por defecto. Si se omite j, es len (cadena) por defecto.
 
 ##Métodos de cadena
+
 `string.lower() / string.upper()` Devuelve una copia de la cadena con todos los caracteres en minúsculas / mayúsculas.
 
 `string.lstrip() / string.rstrip() / string.strip()` Devuelve una copia de la cadena sin espacios en blanco izquierda / derecha / izquierda o derecha.
