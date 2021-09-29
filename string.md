@@ -57,3 +57,16 @@ True
 >>>"Esto esta unido con espacios".split()
 ["Esto", "esta", "unido", "con", "espacios"]
 ```
+
+## Formato de cadenas
+
+```
+>>>name=Hector
+>>>print("Hola {name}, tu numero es el {number}".format(name=name, number=len(name)*3)
+'Hola Hector, tu numero es el 35'
+
+>>>name=Hector
+>>>number=57
+>>>print("Hola {name}, tu numero es el {number}".format(name, number)
+'Hola Hector, tu numero es el 57'
+```
