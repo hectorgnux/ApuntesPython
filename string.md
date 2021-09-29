@@ -37,3 +37,8 @@ True
 >>>int("12345")
 12345
 ```
+- Pasar de una lista a cadena con un delimitador (Es esta caso "espacio")
+```
+>>>" ".join(["Esto", "esta", "unido", "con", "espacios"])
+'Esto es una cadena con espacios'
+```
