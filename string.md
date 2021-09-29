@@ -7,7 +7,7 @@
 >>>"hola".upper()
 HOLA
 ```
-- Todo en mayusculas
+- Todo en minusculas
 ```
 >>>"HOLA".lower()
 hola
