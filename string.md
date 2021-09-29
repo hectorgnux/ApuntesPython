@@ -1,6 +1,6 @@
-## String
+# String
 
-# Apuntes String
+## Apuntes String
 
 - Eliminar espacios Ej(" yes ")
 
