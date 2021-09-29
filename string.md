@@ -111,5 +111,14 @@ True
 
 ##Operaciones con numeros
 
-`'{: d}'. formato (10.5) → '10'`  Valor entero
+`'{:d}'.format(10.5) → '10'`  Valor entero
 
+`'{:.2f}'.format(0.5) → '0.50'` Punto flotante con tantos decimales
+
+`'{:.2s}'.format('Python') → 'Py'` Cadena con tantos caracteres
+
+`'{:<6s}'.format('Py') → 'Py'` Cadena alineada a la izquierda tantos espacios
+
+`'{:>6s}'.format('Py') → 'Py'` Cadena alineada a la derecha tantos espacios
+
+`'{:^6s}'.format('Py') → 'Py'` cadena centrada en tantos espacios
