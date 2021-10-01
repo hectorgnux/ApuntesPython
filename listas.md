@@ -38,6 +38,6 @@ Una funcion que entregue una lista de todos los numeros impares entre 1 y "n":
 
 ```
 def odd_numbers(n):
-	return [x for x in range(n+1) if x%2 != 0]
+	return [x for x in range(n+1) if x % 2 != 0]
 ```
   
