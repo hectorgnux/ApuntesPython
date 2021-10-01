@@ -1,5 +1,5 @@
 # Listas
-## Operaciones con listas Listas
+## Operaciones con Listas
 
 `lista.append("melon")` Agrega "melon" al final de la lista.
 
