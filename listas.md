@@ -12,4 +12,20 @@
 
 `lista[2] = "Chile"` Remplaza por "Chile" lo que se encuentre en el indice 2 (el tercer elemento)
 
+## Compresion de Listas
+Es el arte de realizar una tarea que normalmente requeriria avrias lineas en una sola. Ej:
+
+Un programa que calcule los multiplos de 7 desde el 1 al 70.
+
+```
+multiplos=[]
+for x in range(1,11):
+  multiplos.append(x*7)
+```
+
+La misma tarea realizada en una sola linea seria:
+
+```
+multiplos = [ x*7 for x in range(1,11)]
+```
 
