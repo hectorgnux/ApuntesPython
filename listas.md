@@ -29,3 +29,9 @@ La misma tarea realizada en una sola linea seria:
 multiplos = [ x*7 for x in range(1,11)]
 ```
 
+Otro ejemplo, una lista que contenga todos los numeros divisibles por 3 entre 0 y 100:
+
+```
+multiplos = [x for x in range(101) if x % 3 == 0]
+```
+
