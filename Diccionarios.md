@@ -50,7 +50,7 @@ Calle 123
 
 ```
 
-### Cuantas veces una letra esta en una palabra
+## Cuantas veces una letra esta en una palabra
 
 ```
 def cuenta_letras(texto):
