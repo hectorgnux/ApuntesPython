@@ -13,6 +13,12 @@ Laura
 >>>"Edad" in datos_usuario
 True
 >>>datos_usuario["Edad"] = 28
-print(datos_usuario)
+>>>print(datos_usuario)
 {'Nombre': 'Laura', 'Edad': 28, 'Documento': 1003882, 'Direccion': 'Calle 123'}
+>>>datos_usuario["Genero"] = "femenino"
+>>>print(datos_usuario)
+{'Nombre': 'Laura', 'Edad': 28, 'Documento': 1003882, 'Direccion': 'Calle 123', 'Genero': 'femenino'}
+>>>del datos_usuario["Direccion"]
+>>>print(datos_usuario)
+{'Nombre': 'Laura', 'Edad': 28, 'Documento': 1003882, 'Genero': 'femenino'}
 ```
