@@ -48,6 +48,13 @@ Laura
 1003882
 Calle 123
 
+>>>for dato in datos_usuario.keys():
+>>>    print(dato)
+Nombre
+Edad
+Documento
+Direccion
+
 ```
 
 ## Cuantas veces una letra esta en una palabra
