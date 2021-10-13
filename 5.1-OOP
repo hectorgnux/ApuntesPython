@@ -1,1 +1,18 @@
+#Que es la Programacion Orientada a Objetos (OOP) ?
 
+Python utiliza la OOP que modela conceptos utilizando clases y objetos, donde las clases definen conceptos y los objetos son intancias de clases.
+Para entenderlo mejor todo en python es representado por objetos (numeros, cadenas, diccionarios, listas) y  cada uno de ellos es una instancia de una clase que representa un concepto.
+
+Los atributos son carcteristicas asociadas a un tipo y los metodos son funciones asociadas a un tipo.
+
+Manzana
+Atributos : Color, sabor.
+Metodo : comer, cortar, pelar (la accion sobre la manzana)
+
+Un archivo de texto
+Atributos : Nombre, fecha de creacion, tamaño, extension.
+Objeto : Los datos escritos en el archivo.
+
+Podemos usar la función type() para averiguar a qué clase pertenece una variable o valor.
+Puedes usar dir ()función para imprimir todos los atributos y métodos de un objeto.
+También puede utilizar la función help () en un objeto, que devolverá la documentación de la clase correspondiente.
